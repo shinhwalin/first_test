@@ -1,0 +1,13 @@
+---- os_strcpy Matches (12 in 2 files) ----
+User_main.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.sta_ssid,"smart123456");
+User_main.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.sta_password,"123456789");
+User_main.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.ap_ssid,"admin");
+User_main.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.ap_password,"123456789");
+User_main.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat._IP,"192.168.16.101");	//客户端才用IP地址
+User_main.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat._port,"8080");//端口8080
+Webserver.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.sta_ssid,snum);
+Webserver.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.sta_password,pnum);
+Webserver.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.ap_ssid,snum);
+Webserver.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat.ap_password,pnum);
+Webserver.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user):		os_strcpy(phttp_dat._IP,ipnum);		//IP
+Webserver.c (d:\vm\share\esp8266_rtos_sdk-master\app\project_webserver_test\user)://		os_strcpy(phttp_dat._port,sport);
